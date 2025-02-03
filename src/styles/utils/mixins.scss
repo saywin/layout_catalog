@@ -3,5 +3,5 @@
 }
 
 @mixin transition($param) {
-  transition: 0.3s ease-in;
+  transition: $param 0.3s ease-in;
 }

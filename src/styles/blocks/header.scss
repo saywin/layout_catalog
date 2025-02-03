@@ -41,7 +41,9 @@
     white-space: nowrap;
     color: $color--accent;
     text-transform: uppercase;
-    transition: color 0.2s ease-in;
+
+    @include transition(color);
+
     position: relative;
 
     &:hover {
